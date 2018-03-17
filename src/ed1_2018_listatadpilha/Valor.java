@@ -4,11 +4,11 @@ public class Valor {
 
     private Object valor;
    
-    public Object getNome() {
+    public Object getValor() {
         return valor;
     }
 
-    public void setNome(Object valor) {
+    public void setValor(Object valor) {
         this.valor = valor;
     }
 

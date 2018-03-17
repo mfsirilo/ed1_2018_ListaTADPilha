@@ -1,5 +1,5 @@
 package ed1_2018_listatadpilha;
-
+import java.util.*;
 public class Ed1_2018_ListaTADPilha {
 
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Ed1_2018_ListaTADPilha {
         Exercicio4 exe4 = new Exercicio4();
 
         System.out.println("Informe o exercicio a ser executado");
-        int exe = scan.nextInt;
+        int exe = scan.nextInt();
 
         while (exe != 0) {
             switch (exe) {
@@ -17,7 +17,7 @@ public class Ed1_2018_ListaTADPilha {
                     exe1.Exercicio1();
                     break;
                 case 2:
-                    exe2.Exercicio2();
+                    //exe2.Exercicio2();
                     break;
                 case 3:
                     exe3.Exercicio3();
@@ -26,7 +26,7 @@ public class Ed1_2018_ListaTADPilha {
                     exe4.Exercicio4();
                     break;
                 case 5:
-                    exe5.Exercicio5();
+                   // exe5.Exercicio5();
                     break;
 
             }
