@@ -4,6 +4,11 @@ public class Pilha {
     public int tam = 100;
     public Object vetor[] = new Object[tam];
     public int posicaoPilha = -1;
+    public int contador;
+    
+    public int getContador(){
+        return contador;
+    }
 
     /* empilhando */
     public void Push(Object valor) {
@@ -19,6 +24,7 @@ public class Pilha {
         if (isEmpty()) {
             System.out.println("A pilha esta vazia");
         }
+        contador++;
         posicaoPilha--;
     }
     
