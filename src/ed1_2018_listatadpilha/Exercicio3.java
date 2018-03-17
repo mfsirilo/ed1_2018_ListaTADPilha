@@ -19,11 +19,11 @@ public class Exercicio3 {
                  System.out.println("Placa:");
                  placa = scan.next();
                  
-                 estacionarCarro(opcao,placa, pilha1, pilha2);
+                 estacinamentoCarro(opcao,placa, pilha1, pilha2);
                 }
              System.out.println("STOP");
     }
-        public static void estacionarCarro(String opcao, String placa, Pilha pilha1, Pilha pilha2){
+        private void estacinamentoCarro(String opcao, String placa, Pilha pilha1, Pilha pilha2){
             
             switch (opcao){
             
